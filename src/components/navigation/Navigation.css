@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: orange;
+    height: 50px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.active-nav-link {
+    text-decoration: none;
+    color: white;
+    border-bottom: none;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-list-item {
+    text-align: center;
+    text-transform: capitalize;
+    width: 105px;
+}
+
+.nav-list-item + .nav-list-item {
+    margin-left: 100px;
+}
+
